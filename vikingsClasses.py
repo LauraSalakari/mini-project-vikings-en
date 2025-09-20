@@ -61,10 +61,6 @@ class War():
         self.saxonArmy.append(saxon)
     
     def vikingAttack(self):
-        # get index first to make deletion easier later if needed
-        # viking_idx = random.randint(0, len(self.vikingArmy))
-        # saxon_idx = random.randint(0, len(self.saxonArmy))
-
         viking = random.choice(self.vikingArmy)
         saxon = random.choice(self.saxonArmy)
 
